@@ -1,13 +1,13 @@
 var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-window.addEventListener("DOMContentLoaded", function () {
+/*window.addEventListener("DOMContentLoaded", function () {
 
     var tableBody = document.querySelector('tbody');
     var tableRows = '';
