@@ -87,14 +87,14 @@ tfoot a {
   white-space: nowrap;
 }
 
-/*caption {
-    font-size: 40px;
-    font-weight: 700;
-    border-bottom: none;
-    background-color: rgba(0, 0, 0, 0.85);
+caption {
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: none;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-img {
+/*img {
     display: block;
     max-width: 100%;
     max-height: 150px;
