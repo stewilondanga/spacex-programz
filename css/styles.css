@@ -101,60 +101,61 @@ img {
   margin: 0 auto;
 }
 
-/*@media screen and (max-width: 1200px) {
-    tbody,
-    tfoot,
-    th,
-    td,
-    tr {
-        display: block;
-    }
+@media screen and (max-width: 1200px) {
 
-    table {
-        display: flex;
-        flex-direction: column;
-    }
+  tbody,
+  tfoot,
+  th,
+  td,
+  tr {
+    display: block;
+  }
 
-    thead {
-        display: none;
-    }
+  table {
+    display: flex;
+    flex-direction: column;
+  }
 
-    tr {
-        margin-top: 20px;
-    }
+  thead {
+    display: none;
+  }
 
-    td {
-        border-bottom: none;
-    }
+  tr {
+    margin-top: 20px;
+  }
 
-    td::before {
-        content: attr(data-label) ":";
-        display: block;
-        font-weight: 700;
-        margin-bottom: 2px;
-    }
+  td {
+    border-bottom: none;
+  }
 
-    caption,
-    td:last-of-type {
-        border-bottom: 2px solid #ccc;
-    }
+  td::before {
+    content: attr(data-label) ":";
+    display: block;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
 
-    caption,
-    td:nth-child(4),
-    td:last-of-type {
-        max-width: 100%;
-    }
+  caption,
+  td:last-of-type {
+    border-bottom: 2px solid #ccc;
+  }
 
-    tbody tr:hover {
-        background-color: initial;
-    }
+  caption,
+  td:nth-child(4),
+  td:last-of-type {
+    max-width: 100%;
+  }
 
-    tfoot {
-        order: 1;
-    }
+  tbody tr:hover {
+    background-color: initial;
+  }
+
+  tfoot {
+    order: 1;
+  }
 }
 
-@keyframes spin {
+/*@keyframes spin {
     to {
         transform: rotate(360deg);
     }
