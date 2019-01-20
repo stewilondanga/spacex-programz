@@ -43,14 +43,14 @@ table {
   margin: 0 auto;
 }
 
-/*th,
+th,
 td,
 caption {
-    padding: 20px;
-    border: 2px solid #ccc;
+  padding: 20px;
+  border: 2px solid #ccc;
 }
 
-th,
+/*th,
 td {
     vertical-align: middle;
 }
