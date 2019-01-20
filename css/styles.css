@@ -34,16 +34,16 @@ body {
   animation: spin 400ms linear infinite;
 }
 
-/*table {
-    font-family: "Cuprum", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.7;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
+table {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
 }
 
-th,
+/*th,
 td,
 caption {
     padding: 20px;
